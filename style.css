@@ -1,0 +1,105 @@
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+main {
+    font-family: "Golos Text", sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+h1 {
+    font-family: "Golos Text", sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: "Golos Text", sans-serif;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.container {
+    height: 100%;
+    margin: auto;
+    max-width: 894px;
+}
+
+.header {
+    line-height: 56px;
+    margin-top: 60px;
+}
+
+.content__line {
+    background: rgb(209, 209, 209);
+    box-shadow: rgba(67, 67, 67, 0.1) 0 1px 15px 1px;
+    height: 1px;
+    margin-top: 21px;
+}
+
+article,
+.content__info {
+    margin: 21px 0 10px 30px;
+}
+
+.content__contacts__list {
+    list-style: none;
+}
+
+.content__contacts__list li:nth-child(1n) {
+    font-family: "Golos Text", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.content__contacts__list li:nth-child(2n) {
+    font-family: "Golos Text", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.content__text__description {
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.content__project__name {
+    font-family: "Golos Text", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.content__scills__list {
+    list-style: inside;
+}
+
+.content__list {
+    list-style: circle;
+}
+
+.content__description {
+    list-style: none;
+}
+
+.content__expirience__descript {
+    margin-top: 10px;
+}
+
+.content__expirience__descript__title,
+.content__expirience__place {
+    font-family: "Golos Text", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.content__about {
+    margin-bottom: 100px;
+}
